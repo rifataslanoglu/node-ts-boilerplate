@@ -24,11 +24,6 @@ app.use(express.json());
 // Application Routes
 app.use('/', baseRouter);
 
-// Health Check Route
-app.use('/test', (req: Request, res: Response) => {
-    res.send('basarili');
-});
-
 
 app.use((req: Request, res: Response, _next: NextFunction) => {
     res.status(404).json({
