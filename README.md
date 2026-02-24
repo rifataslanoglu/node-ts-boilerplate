@@ -1,8 +1,9 @@
 # Node.js & TypeScript API Boilerplate
 
 A minimalist, production-ready foundation for building scalable RESTful APIs using Node.js, Express, TypeScript, and MongoDB.
-
+Unopinionated beyond core structural concerns.
 This boilerplate focuses on clean architecture, strict type safety, and strong developer experience without unnecessary abstractions.
+
 
 ---
 
